@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>BMI Calculator</title>
+</head>
+
+<body>
+    <!-- main container -->
+    <div id="container">
+
+        <!-- top header -->
+        <div id="text">
+            <img id="header-title" src="images/biceps.png" alt="">
+        </div>
+
+        <!-- Age and Gender -->
+        <div>
+            <input id="age" class="input-box" type="text" placeholder="Age">
+            <select class="input-box" id="gender">
+                <option value="male" selected>Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <!-- weight input box -->
+        <input id="weight" class="input-box" type="text" placeholder="Weight (Kg)">
+
+        <!-- height input box -->
+        <div>
+            <input id="height" class="input-box" type="text" placeholder="Height">
+            <select class="input-box" id="length-type">
+                <option value="m" selected>meter</option>
+                <option value="cm">centimeter</option>
+                <option value="in">inch</option>
+            </select>
+        </div>
+
+        <!-- Button box -->
+        <div id="btn-box">
+            <button id="submit-btn" class="btn">Submit</button>
+            <button id="clear-btn" class="btn">Clear</button>
+        </div>
+ 
+
+        <!-- BMI output box -->
+        <div id="bmi-output">
+            <h2 id="my-bmi">Your BMI is : </h2>
+            <h2 id="aboutYourFitness">You are Underweight.</h2>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
