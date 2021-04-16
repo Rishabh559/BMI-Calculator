@@ -14,3 +14,5 @@ Check your Body Mass Index (BMI)
     1- If BMI < 18.5  (Underweight).
     2- If BMI > 18.5 or BMI < 24.9  (Fit).
     3- If BMI > 24.9   (Overweight).
+
+## That's all.
